@@ -1,4 +1,4 @@
-  #website 1
+# website 1
 
 created following a frontend developer crash course as a refresher for html and css
 optimized for both desktop and mobile use  
