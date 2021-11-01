@@ -24,7 +24,13 @@ header{
     padding: 30px 10%;
 }
 
-h2{
+h2 {
+    font-size: 34px;
+}
+
+h2 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 34px;
     
 }
@@ -84,6 +90,7 @@ section.bio{
         align-self: center;
                 
 }
+
 .bio-text{
     grid-area: content;
         align-self: center;
@@ -96,6 +103,34 @@ section.bio{
 }
 
 .bio h2::before {
+    content: ' ';
+    position: absolute;
+    width: 8em;
+    background: #bd93f9;
+    height: .2em;
+    bottom:0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+section.bio-single {
+    background-clip: content-box;
+    background-color: #24252a9a;
+    padding: 15%;
+    text-align: center;
+
+}
+
+.bio-single .bio-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.bio-single h2 {
+    position: relative;
+}
+
+.bio-single h2::before {
     content: ' ';
     position: absolute;
     width: 8em;
