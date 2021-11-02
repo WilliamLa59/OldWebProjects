@@ -78,6 +78,7 @@ section.bio{
     background-clip: content-box;
     background-color: #24252a9a;
     padding: 15%;
+    padding-top: -1px;
     display: grid;
     
     grid-template-columns: repeat(2, 50%);
@@ -118,6 +119,7 @@ section.bio-single {
     background-color: #24252a9a;
     padding: 15%;
     text-align: center;
+    
 
 }
 
@@ -128,6 +130,7 @@ section.bio-single {
 
 .bio-single h2 {
     position: relative;
+    display: inline-block;
 }
 
 .bio-single h2::before {
@@ -137,7 +140,6 @@ section.bio-single {
     background: #bd93f9;
     height: .2em;
     bottom:0;
-    z-index: -1;
     margin-left: -.3em;
 }
 
