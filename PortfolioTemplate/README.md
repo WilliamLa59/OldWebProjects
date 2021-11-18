@@ -2,9 +2,12 @@
 
 A barebone template that enables the user to add, view, edit, and delete projects from their portfolio through CRUD operations and without having to edit any code.
 
+## NOTE
+bin folder not uploaded (too big to upload)
 
 ## To-Do:
 - ~~CRUD Operations~~ COMPLETE
 - implement image upload and display for each project in the table
 - Admin athurization for adding, editing, and deleting 
+
 
