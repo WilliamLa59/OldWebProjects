@@ -2,5 +2,7 @@ A barebone portfolio template that enables the user to add, view, edit, and dele
 
 To-Do:
 CRUD Operations
+
 implement image upload and display for each project in the table
+
 Admin athurization for adding, editing, and deleting 
