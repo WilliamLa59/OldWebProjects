@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using PortfolioTemplateV2.Data;
 using PortfolioTemplateV2.Models;
 
 namespace PortfolioTemplateV2.Pages.Projects
 {
+    [Authorize(Policy = "AdminOnly")]
     public class DeleteModel : PageModel
     {
         private readonly PortfolioTemplateV2.Data.PortfolioTemplateV2Context _context;
