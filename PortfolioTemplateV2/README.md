@@ -6,4 +6,5 @@ Created using ASP.Net and Razor Pages.
 ## To-Do List
 - ~~CRUD operations with project data~~ COMPLETE
 - ~~Add image upload and implementation with CRUD operations~~ COMPLETE
-- Add Admin Authorization for CRUD operation 
+- ~~Add Admin Authorization for CRUD operation~~ COMPLETE
+- Add more security measures
