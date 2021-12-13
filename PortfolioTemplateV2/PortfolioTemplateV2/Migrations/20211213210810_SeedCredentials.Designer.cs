@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PortfolioTemplateV2.Data;
 
@@ -10,9 +11,10 @@ using PortfolioTemplateV2.Data;
 namespace PortfolioTemplateV2.Migrations
 {
     [DbContext(typeof(PortfolioTemplateV2Context))]
-    partial class PortfolioTemplateV2ContextModelSnapshot : ModelSnapshot
+    [Migration("20211213210810_SeedCredentials")]
+    partial class SeedCredentials
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

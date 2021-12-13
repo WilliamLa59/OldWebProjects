@@ -15,5 +15,20 @@ namespace PortfolioTemplateV2.Data
         }
 
         public DbSet<PortfolioTemplateV2.Models.Project> Project { get; set; }
+
+        public DbSet<PortfolioTemplateV2.Models.Credential> Credential { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Credential>().HasData(
+                    new Credential
+                    {
+                        Id = 1,
+                        UserName = "admin",
+                        Password = "password"
+                    }
+                ); ;
+
+        }
     }
 }

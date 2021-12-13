@@ -20,7 +20,7 @@ namespace PortfolioTemplateV2.Pages.Account
         {
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(Credential credential, int? id)
         {
             if (!ModelState.IsValid)
             {
@@ -28,7 +28,7 @@ namespace PortfolioTemplateV2.Pages.Account
             }
 
             //verify credentials
-            if (Credential.UserName == "admin" && Credential.Password == "password")
+            if (Credential.Id == credential.Id && Credential.UserName == credential.UserName && Credential.Password == credential.Password)
             {
                 //create security context
                 var claims = new List<Claim>{
