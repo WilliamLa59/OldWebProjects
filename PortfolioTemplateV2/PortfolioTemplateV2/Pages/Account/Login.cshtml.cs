@@ -48,22 +48,14 @@ namespace PortfolioTemplateV2.Pages.Account
 
             credential.Salt = Credential.Salt;
 
+            /*
             Console.WriteLine("C Salt: " + Credential.Salt);
             Console.WriteLine("C Pass: " + Credential.Password);
             Console.WriteLine("C User: " + Credential.UserName);
             Console.WriteLine("Salt: " + credential.Salt);
             Console.WriteLine("Pass: " + credential.Password);
             Console.WriteLine("User: " + credential.UserName);
-
-
-           
-
-            /*
-            Console.WriteLine("Salt: " + credential.Salt);
-            Console.WriteLine("Pass: " + credential.Password);
-            Console.WriteLine("User: " + credential.UserName);
            */
-
         
             //verify credentials
             if (credential.UserName == Credential.UserName && hashVerify(credential.Password, credential.Salt) == true)  
@@ -90,9 +82,9 @@ namespace PortfolioTemplateV2.Pages.Account
 
         public bool hashVerify (string inputPass, string inputSalt)
         {
-            byte[] salt = Encoding.ASCII.GetBytes(inputSalt);
+            byte[] salt = Encoding.ASCII.GetBytes(inputSalt);//converts salt string to byte array
 
-            Console.WriteLine($"Salt: {Convert.ToBase64String(salt)}");
+            //Console.WriteLine($"Salt: {Convert.ToBase64String(salt)}");
 
             string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
             password: inputPass,
@@ -101,7 +93,7 @@ namespace PortfolioTemplateV2.Pages.Account
             iterationCount: 100000,
             numBytesRequested: 256 / 8));
 
-            Console.WriteLine($"Hashed: {hashed}");
+            //Console.WriteLine($"Hashed: {hashed}");
 
             if (hashed.Equals(Credential.Password))
             {
