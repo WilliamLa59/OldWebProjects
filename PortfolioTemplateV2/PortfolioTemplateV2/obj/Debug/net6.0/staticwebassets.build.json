@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nAddhwML9+qYrg8TIChnXSGJShP/avIpK2DV4cXQ96E=",
+  "Hash": "KR0Asi0lFUR+K0kF+xXtfzQRuBEvuMpkx3IBK66qPiY=",
   "Source": "PortfolioTemplateV2",
   "BasePath": "_content/PortfolioTemplateV2",
   "Mode": "Default",
@@ -83,40 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\William\\Desktop\\CodeProjects\\PortfolioTemplateV2\\PortfolioTemplateV2\\wwwroot\\images\\Cosmo Ebi 3440x1440-gigapixel-art-scale-1_00x.png",
-      "SourceId": "PortfolioTemplateV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\William\\Desktop\\CodeProjects\\PortfolioTemplateV2\\PortfolioTemplateV2\\wwwroot\\",
-      "BasePath": "_content/PortfolioTemplateV2",
-      "RelativePath": "images/Cosmo Ebi 3440x1440-gigapixel-art-scale-1_00x.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Cosmo Ebi 3440x1440-gigapixel-art-scale-1_00x.png"
-    },
-    {
-      "Identity": "C:\\Users\\William\\Desktop\\CodeProjects\\PortfolioTemplateV2\\PortfolioTemplateV2\\wwwroot\\images\\Laser Sake 3440x1440-gigapixel-art-scale-1_00x.png",
-      "SourceId": "PortfolioTemplateV2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\William\\Desktop\\CodeProjects\\PortfolioTemplateV2\\PortfolioTemplateV2\\wwwroot\\",
-      "BasePath": "_content/PortfolioTemplateV2",
-      "RelativePath": "images/Laser Sake 3440x1440-gigapixel-art-scale-1_00x.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Laser Sake 3440x1440-gigapixel-art-scale-1_00x.png"
     },
     {
       "Identity": "C:\\Users\\William\\Desktop\\CodeProjects\\PortfolioTemplateV2\\PortfolioTemplateV2\\wwwroot\\js\\site.js",

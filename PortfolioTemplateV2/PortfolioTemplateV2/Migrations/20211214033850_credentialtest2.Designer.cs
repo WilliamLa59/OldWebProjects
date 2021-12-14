@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PortfolioTemplateV2.Data;
 
@@ -10,9 +11,10 @@ using PortfolioTemplateV2.Data;
 namespace PortfolioTemplateV2.Migrations
 {
     [DbContext(typeof(PortfolioTemplateV2Context))]
-    partial class PortfolioTemplateV2ContextModelSnapshot : ModelSnapshot
+    [Migration("20211214033850_credentialtest2")]
+    partial class credentialtest2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,6 +36,7 @@ namespace PortfolioTemplateV2.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Salt")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UserName")
@@ -48,8 +51,8 @@ namespace PortfolioTemplateV2.Migrations
                         new
                         {
                             Id = 1,
-                            Password = "MObIQJ3fRNiaHcJAGhqrrKEozD9DRJg/8EZvXDWvwgI=",
-                            Salt = "Nf4KUyVGBHTRb5vPWU7s3Q==",
+                            Password = "hrM7Dx2fkc/mYzWadpVqIj6g6DihgMd6dp7VcS245QI=",
+                            Salt = "EsgMFJ0/60IOZp1IYzY/og==",
                             UserName = "admin"
                         });
                 });
