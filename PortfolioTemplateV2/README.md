@@ -10,4 +10,4 @@ Created using ASP.Net and Razor Pages.
 - ~~Seed default admin credentials~~ COMPLETE
 - ~~Implement password hashing for admin account~~ COMPLETE
 - ~~Add verification for hashed password~~ COMPLETE
-- Implement ability to change admin password
+- ~~Implement ability to change admin password~~ COMPLETE
