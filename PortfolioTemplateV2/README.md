@@ -7,4 +7,7 @@ Created using ASP.Net and Razor Pages.
 - ~~CRUD operations with project data~~ COMPLETE
 - ~~Add image upload and implementation with CRUD operations~~ COMPLETE
 - ~~Add Admin Authorization for CRUD operation~~ COMPLETE
-- Add more security measures
+- ~~Seed default admin credentials~~ COMPLETE
+- ~~Implement password hashing for admin account~~ COMPLETE
+- ~~Add verification for hashed password~~ COMPLETE
+- ~~Implement ability to change admin password~~ COMPLETE
