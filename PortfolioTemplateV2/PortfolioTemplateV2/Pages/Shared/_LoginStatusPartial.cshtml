@@ -2,6 +2,7 @@
 {
     <form method="post" class="form-inline" asp-page="/Account/Logout">
         Welcome @User.Identity.Name!
+        <a class="btn btn-link" asp-page="/Account/Edit" asp-route-id="1">Change Password</a>
         <button type="submit" class="ml-2 btn btn-link">Logout</button>
     </form>
 }

@@ -16,7 +16,7 @@ builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", opt
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AdminOnly",
-        policy => policy.RequireClaim("Admin"));
+        policy => policy.RequireRole("Admin"));
 });
 
 builder.Services.AddDbContext<PortfolioTemplateV2Context>(options =>

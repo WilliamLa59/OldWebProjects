@@ -63,8 +63,7 @@ namespace PortfolioTemplateV2.Pages.Account
                 //create security context
                 var claims = new List<Claim>{
                     new Claim(ClaimTypes.Name, "admin"),
-                    new Claim("Admin", "true")
-                
+                    new Claim(ClaimTypes.Role, "Admin")
                 };
 
                 var identity = new ClaimsIdentity(claims, "MyCookieAuth");

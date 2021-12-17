@@ -80,7 +80,7 @@ namespace PortfolioTemplateV2.Pages.Account
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
 
         private bool CredentialExists(int id)
