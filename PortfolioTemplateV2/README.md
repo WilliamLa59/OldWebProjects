@@ -22,3 +22,4 @@ The idea for this project was to allow the user to revise and alter the projects
 - ~~Implement password hashing for admin account~~ COMPLETE
 - ~~Add verification for hashed password~~ COMPLETE
 - ~~Implement ability to change admin password~~ COMPLETE
+- Add ability to include github repository link for projects
