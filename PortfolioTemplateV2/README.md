@@ -1,7 +1,10 @@
 # PortfolioTemplate
 
 A barebones portfolio template that allows the user to perform CRUD operations for their projects.
-Created using ASP.Net and Razor Pages.
+Created using ASP.Net, Razor Pages, and Entity Framework for database manipulations. 
+When logged in as a admin, the user is able to add, edit and delete projects as well as upload images.
+Anonymous users are only able to view the projects saved on the database.
+The idea for this project was to allow the user to revise and alter the projects on their portfolio without having to change any code.
 
 ## To-Do List
 - ~~CRUD operations with project data~~ COMPLETE
