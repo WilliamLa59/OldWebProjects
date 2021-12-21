@@ -11,6 +11,7 @@ The idea for this project was to allow the user to revise and alter the projects
 
 ### The default Admin credentials
 Remember to change passwords after first login 
+
     Username: admin
     Password: password
 
