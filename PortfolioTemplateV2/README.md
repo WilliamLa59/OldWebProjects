@@ -12,7 +12,7 @@ The idea for this project was to allow the user to revise and alter the projects
 ## Default Admin Credentials
     Username: admin
     Password: password
-    Remember to change passwords after first login 
+*Remember to change passwords after first login* 
 
 
 ## To-Do List
