@@ -99,6 +99,7 @@ namespace PortfolioTemplateV2.Pages.Projects
             Project.Name = project.Name;
             Project.Description = project.Description;
             Project.PhotoName = project.PhotoName;
+            Project.Github = project.Github;
                 
             await _context.SaveChangesAsync();
             return RedirectToPage("./Index");

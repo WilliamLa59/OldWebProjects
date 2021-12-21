@@ -28,7 +28,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Project[0].PhotoName)
             </th>
-            <th></th>
+            <th>
+                 @Html.DisplayNameFor(model => model.Project[0].Github)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -42,6 +44,9 @@
             </td>
             <td>
                 <img src="~/images/@Html.DisplayFor(modelItem => item.PhotoName)" height="120" width="200"/>
+            </td>
+            <td>
+                <a href="@Html.DisplayFor(modelItem => item.Github)" target="_blank" rel="noopener noreferrer">@Html.DisplayFor(modelItem => item.Github)</a>
             </td>
 
             @if (User.Identity.IsAuthenticated)

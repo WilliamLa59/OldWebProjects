@@ -30,6 +30,11 @@
                 <span asp-validation-for="Project.PhotoName" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Project.Github" class="control-label"></label>
+                <input asp-for="Project.Github" class="form-control" />
+                <span asp-validation-for="Project.Github" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

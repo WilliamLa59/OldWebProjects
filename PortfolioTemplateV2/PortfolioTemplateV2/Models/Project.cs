@@ -9,5 +9,6 @@ namespace PortfolioTemplateV2.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string? PhotoName { get; set; }
+        public string? Github { get; set; } 
     }
 }
