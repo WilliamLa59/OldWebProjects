@@ -10,8 +10,8 @@ Anonymous users are only able to view the projects saved on the database.
 The idea for this project was to allow the user to revise and alter the projects on their portfolio without having to change any code.
 
 ## The default Admin credentials
-Username: admin
-Password: password
+    Username: admin
+    Password: password
 
 ## To-Do List
 - ~~CRUD operations with project data~~ COMPLETE
