@@ -9,7 +9,7 @@ When logged in as a admin, the user is able to add, edit and delete projects as 
 Anonymous users are only able to view the projects saved on the database.
 The idea for this project was to allow the user to revise and alter the projects on their portfolio without having to change any code.
 
-### The default Admin credentials
+## The default Admin credentials
 Remember to change passwords after first login 
 
     Username: admin
