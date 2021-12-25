@@ -20,7 +20,7 @@ Currently uses the default scaffolding CSS and layout, but my hope is to create 
 Includes both a black and white github logo PNG
 
 ## To-Do List
-<sup>will add more things as they come to mind<sup>
+will add more things as they come to mind
 - ~~CRUD operations with project data~~ COMPLETE
 - ~~Add image upload and implementation with CRUD operations~~ COMPLETE
 - ~~Add Admin Authorization for CRUD operation~~ COMPLETE
