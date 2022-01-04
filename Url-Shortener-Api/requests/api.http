@@ -1,6 +1,0 @@
-POST http://localhost:5000/api/url/shorten
-Content-Type: application/json
-
-{
-    "longUrl": "https://www.amazon.ca/Soarking-Charging-Superlight-Lightspeed-Powerplay/dp/B08JFXFSJ2/ref=pd_bxgy_img_2/144-0778901-8895227?pd_rd_w=uh62R&pf_rd_p=8c482a45-7c0f-409b-937c-741a67b11a67&pf_rd_r=V2W5QXZ10Z8KACZHBFB9&pd_rd_r=3f8a1a4e-3ba2-4ad9-8019-f4e2dd873879&pd_rd_wg=COwsV&pd_rd_i=B08JFXFSJ2&psc=1"
-}
