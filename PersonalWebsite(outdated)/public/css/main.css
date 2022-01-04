@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: 'Montserrat', sans-serif;
+    color: #edf0f1;
+}
+
+li,a,button, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h2 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button {
+    padding: 9px, 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+    width: 150%
+    
+} 
+button:hover {
+    background-color: rgba(0,136,169,0.5);
+}
+
+.hero-bg {
+    background-image: url('../images/bg.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    color: #edf0f1;
+    background-repeat: no-repeat;
+}
+
+section.bio{
+    background-clip: content-box;
+    background-color: #24252a9a;
+    padding: 15%;
+    padding-top: -1px;
+    display: grid;
+    
+    grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+            "me content";
+}
+.dp{
+    
+    grid-area: me; 
+        align-self: center;
+                
+}
+
+.bio-text{
+    grid-area: content;
+        align-self: center;
+        font-size: 16px;
+        
+}
+
+.bio h2 {
+    position: relative;
+}
+
+.bio h2::before {
+    content: ' ';
+    position: absolute;
+    width: 8em;
+    background: #bd93f9;
+    height: .2em;
+    bottom:0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
+section.bio-single {
+    background-clip: content-box;
+    background-color: #24252a9a;
+    padding: 15%;
+    text-align: center;
+    
+
+}
+
+.bio-single .bio-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.bio-single h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.bio-single h2::before {
+    content: ' ';
+    position: absolute;
+    width: 8em;
+    background: #bd93f9;
+    height: .2em;
+    bottom:0;
+    margin-left: -.3em;
+}
+
+.bio {
+    animation: fadeIn 2s forwards;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+.csgallery{
+    padding-top: 1.5em;
+}
+
+section.project {
+    background-clip: content-box;
+    background-color: #24252a9a;
+    border: 3px  solid #ff79c567;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+            "ss desc";
+}
+
+.pic{
+    grid-area: ss;
+   
+}
+
+.pic img {
+    vertical-align: text-bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.desc {
+    grid-area: desc; 
+        text-align: center;
+        
+}
+
+.desc h2{
+    margin-top: 0%;
+    padding-top: 0.5em;
+}
+
+.desc p {
+   padding-top: 5%; 
+   padding-bottom: 5%; 
+}
+
+.desc img{
+    width: 35px;
+    height: 35px;
+}
+
+.vgallery{
+    align-content: center;
+    text-align: center;
+    
+}
+
+.iframe-container{
+    padding-top: 1.5em;
+    width: 1680px;
+    clear: both;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.iframe-container div {
+    display: block;
+    margin: auto;
+}
+
+.iframe-container div iframe {
+    float: left;
+}
+
+
+@media(max-width: 730px) {
+    
+    .iframe-container{
+        position: relative;
+        padding-bottom: 56.25%; 
+        
+    }
+    
+    .iframe-container iframe{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
