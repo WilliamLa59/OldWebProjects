@@ -1,11 +1,14 @@
 # URL Shortener Service API
 created using Node, Express and MongoDB
   
-## Minor edits must be done in order to run properly
+## Minor edits must be made in order to run properly
       use "npm install" to install dependencies
       
-      edit default.json file to add you your mongoURI and baseUrl
+      edit config/default.json to add your mongoURI and your desired base Url
       
 ## How to use
 use "npm start" to run
-put target url in "longUrl" variable in api.http and hit send request
+~~in request/api.http put target url in "longUrl" variable hit send request (needs REST Client VS code extention)~~
+add target Url to the textfield and hit "Shorten"
+the new short url should be outputted to the browser console also check to ensure it has been saved to the database 
+
