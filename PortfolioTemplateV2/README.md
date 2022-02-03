@@ -2,7 +2,7 @@
 
 A barebones portfolio template that allows the user to perform CRUD operations for their projects.
 
-Created using ASP.Net, Razor Pages, and Entity Framework for database manipulations.
+Created using ASP.Net, Razor Pages, SQL Express Servers for a LocalDB and Entity Framework for database manipulations.
 
 An admin account is seeded into the account table with the password being encrypted with a salted hash.
 When logged in as a admin, the user is able to add, edit and delete projects as well as upload images.
@@ -29,3 +29,5 @@ will add more things as they come to mind
 - ~~Add verification for hashed password~~ COMPLETE
 - ~~Implement ability to change admin password~~ COMPLETE
 - ~~Add ability to include github repository link for projects~~ COMPLETE
+- change css and layout and create a general theme for the website
+- create different preset themes users can pick from  
